@@ -1,35 +1,35 @@
-[04:00:31] [ServerMain/INFO]: [bootstrap] Running Java 21 (OpenJDK 64-Bit Server VM 21.0.6+7-Ubuntu-120.04.1; Ubuntu null) on Linux 6.5.0-1025-azure (amd64)
-[04:00:31] [ServerMain/INFO]: [bootstrap] Loading Paper 1.21.1-57-master@b483da4 (2024-09-01T18:09:05Z) for Minecraft 1.21.1
-[04:00:31] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
-[04:00:32] [ServerMain/INFO]: [PluginInitializerManager] Initialized 0 plugins
-[04:00:36] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
-[04:00:37] [ServerMain/INFO]: Loaded 1290 recipes
-[04:00:38] [ServerMain/INFO]: Loaded 1399 advancements
-[04:00:38] [Server thread/INFO]: Starting minecraft server version 1.21.1
-[04:00:38] [Server thread/INFO]: Loading properties
-[04:00:38] [Server thread/INFO]: This server is running Paper version 1.21.1-57-master@b483da4 (2024-09-01T18:09:05Z) (Implementing API version 1.21.1-R0.1-SNAPSHOT)
-[04:00:39] [Server thread/INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
-[04:00:39] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[04:00:39] [Server thread/INFO]: Using 4 threads for Netty based IO
-[04:00:39] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using 1 I/O threads, 1 worker threads, and population gen parallelism of 1 threads
-[04:00:40] [Server thread/INFO]: Default game type: SURVIVAL
-[04:00:40] [Server thread/INFO]: Generating keypair
-[04:00:40] [Server thread/INFO]: Starting Minecraft server on 147.185.221.26:52309
-[04:00:40] [Server thread/INFO]: Using epoll channel type
-[04:00:40] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
-[04:00:40] [Server thread/INFO]: Paper: Using OpenSSL 1.1.x (Linux x86_64) cipher from Velocity.
-[04:00:40] [Server thread/WARN]: **** FAILED TO BIND TO PORT!
-[04:00:40] [Server thread/WARN]: The exception was: io.netty.channel.unix.Errors$NativeIoException: bind(..) failed: Cannot assign requested address
-[04:00:40] [Server thread/WARN]: Perhaps a server is already running on that port?
-[04:00:40] [Server thread/ERROR]: Encountered an unexpected exception
+[04:15:29] [ServerMain/INFO]: [bootstrap] Running Java 21 (OpenJDK 64-Bit Server VM 21.0.6+7-Ubuntu-120.04.1; Ubuntu null) on Linux 6.5.0-1025-azure (amd64)
+[04:15:29] [ServerMain/INFO]: [bootstrap] Loading Paper 1.21.1-57-master@b483da4 (2024-09-01T18:09:05Z) for Minecraft 1.21.1
+[04:15:29] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
+[04:15:29] [ServerMain/INFO]: [PluginInitializerManager] Initialized 0 plugins
+[04:15:33] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[04:15:35] [ServerMain/INFO]: Loaded 1290 recipes
+[04:15:35] [ServerMain/INFO]: Loaded 1399 advancements
+[04:15:35] [Server thread/INFO]: Starting minecraft server version 1.21.1
+[04:15:35] [Server thread/INFO]: Loading properties
+[04:15:35] [Server thread/INFO]: This server is running Paper version 1.21.1-57-master@b483da4 (2024-09-01T18:09:05Z) (Implementing API version 1.21.1-R0.1-SNAPSHOT)
+[04:15:36] [Server thread/INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
+[04:15:36] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[04:15:36] [Server thread/INFO]: Using 4 threads for Netty based IO
+[04:15:37] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using 1 I/O threads, 1 worker threads, and population gen parallelism of 1 threads
+[04:15:37] [Server thread/INFO]: Default game type: SURVIVAL
+[04:15:37] [Server thread/INFO]: Generating keypair
+[04:15:37] [Server thread/INFO]: Starting Minecraft server on 147.185.221.26:52309
+[04:15:37] [Server thread/INFO]: Using epoll channel type
+[04:15:37] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
+[04:15:37] [Server thread/INFO]: Paper: Using OpenSSL 1.1.x (Linux x86_64) cipher from Velocity.
+[04:15:37] [Server thread/WARN]: **** FAILED TO BIND TO PORT!
+[04:15:37] [Server thread/WARN]: The exception was: io.netty.channel.unix.Errors$NativeIoException: bind(..) failed: Cannot assign requested address
+[04:15:37] [Server thread/WARN]: Perhaps a server is already running on that port?
+[04:15:37] [Server thread/ERROR]: Encountered an unexpected exception
 java.lang.IllegalStateException: Failed to bind to port
 	at net.minecraft.server.dedicated.DedicatedServer.initServer(DedicatedServer.java:286) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
 	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1215) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
 	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:330) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
 	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
 Caused by: io.netty.channel.unix.Errors$NativeIoException: bind(..) failed: Cannot assign requested address
-[04:00:40] [Server thread/ERROR]: This crash report has been saved to: /workspaces/MSP/servidor_minecraft/crash-reports/crash-2025-03-10_04.00.40-server.txt
-[04:00:40] [Server thread/INFO]: Stopping server
-[04:00:40] [Server thread/INFO]: Saving players
-[04:00:40] [Server thread/INFO]: Saving worlds
-[04:00:40] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[04:15:37] [Server thread/ERROR]: This crash report has been saved to: /workspaces/MSP/servidor_minecraft/crash-reports/crash-2025-03-10_04.15.37-server.txt
+[04:15:37] [Server thread/INFO]: Stopping server
+[04:15:37] [Server thread/INFO]: Saving players
+[04:15:37] [Server thread/INFO]: Saving worlds
+[04:15:37] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
